@@ -1,0 +1,66 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ input[type="submit"] {
+   background-color: #00aadd;
+   color: white;
+   width: 200px;
+   height: 40px;
+   border-radius: 8px;
+ }
+
+.form {
+   border-color: #00aadd;
+   color: darkGray;
+   width: 200px;
+ }
+
+ input[type="text"] {
+   height: 20px;
+ }
+
+ textarea {
+   height: 150px;
+ }
+
+
+
+.container {
+  font-size: `14px;
+  margin: 20px auto;
+  width: 400px;
+  color: orange;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+h2 {
+  border-bottom: 1px solid orange;
+}
+
+ul> li {
+  margin-bottom: 5px;
+}
+
+.new_post {
+  color: red;
+  float: right;
+  text-decoration: none;
+}
